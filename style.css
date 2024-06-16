@@ -1,32 +1,186 @@
+
+@import url('https://fonts.cdnfonts.com/css/lucida-sans-unicode');
+
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: white;
+  transition: all .1s ease-in;
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #2b81ac;
+    min-height: 100vh;
+    font-family: 'Lucida Sans Unicode', sans-serif;
+    font-weight: light;
+}
+
+
+
+
+h1 {
+    padding-bottom: 35px;
+}
+
+
 
 .weather-forecast {
-  width: 1440px;
-  height: 900px;
-
-  background-color: #3399cc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 1440px;
+    padding: 35px 110px;
+    background-color: #3399cc;
 }
+
+
+
+
 
 .container-city {
-  text-align: center;
-  width: 1170px;
-  height: 592px;
-  top: 129px;
-  left: 135px;
+    width: 1200px;
+    margin: 0;
+   
+    font-size: 0px;
 }
 
-ul {
-  background-color: white;
-  width: 100vv;
+
+
+
+.container-city > div  {
+    font-size: 1rem;
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
 }
 
-li {
-  font-size: 1rem;
-  display: inline-block;
-  padding: 20px;
-  background-color: #3399cc;
+
+
+img {
+  width: 49px;
+  height: 61px;
+}
+
+ 
+
+.list-lisbon,
+.list-sanfrancisco {
+    width: 587px;
+    height: 147px;
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 26px;
+    opacity: 0.6;
+}
+
+
+.list-venice,
+.list-tel-aviv,
+.list-cair,
+.list-new-delhi,
+.list-paris,
+.list-new-york,
+.list-belgrade,
+.list-tokyo {
+    width: 293.5px;
+    height: 147px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid white;
+    padding-top: 26px;
+    opacity: 0.6;
+}
+
+
+
+.list-sydney {
+    width: 1174px;
+    height: 147px;
+    background-color: #666699;
+    display: inline-block;
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 26px;
+    opacity: 0.6;
+}
+
+.list-lisbon {
+    background-color: #3399CC;
+}
+
+.list-sanfrancisco {
+    background-color: #CC6699;
+}
+
+.list-belgrade {
+    background-color: #996699;
+}
+
+.list-cair {
+    background-color:#FFCC66;
+}
+
+.list-new-york {
+    background-color: #99cc99;
+}
+
+.list-venice {
+    background-color: #C24747;
+}
+
+.list-tokyo {
+    background-color:#339966;
+}
+
+.list-tel-aviv {
+    background-color: #E2674A;
+}
+
+.list-paris {
+    background-color: #33CCCC;
+}
+
+.list-new-delhi {
+    background-color: #669999;
+    
+}
+
+
+.list-hover:hover {
+  opacity: 1;
+}
+
+
+
+.list-items { 
+   display:block;
+   
+}
+
+
+
+
+h2 {
+  display: block;
+  margin-bottom: 10px;
+  
+}
+
+span {
+  font-size: 20px;
+  padding-top: -20px;
+}
+
+
+
+.footer-paragraph { 
+  padding-top: 35px;
 }
