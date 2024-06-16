@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.weather-forecast {
+  width: 1440px;
+  height: 900px;
+
+  background-color: #3399cc;
+}
+
+.container-city {
+  text-align: center;
+  width: 1170px;
+  height: 592px;
+  top: 129px;
+  left: 135px;
+}
+
+ul {
+  background-color: white;
+  width: 100vv;
+}
+
+li {
+  font-size: 1rem;
+  display: inline-block;
+  padding: 20px;
+  background-color: #3399cc;
+}
