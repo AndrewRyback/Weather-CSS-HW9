@@ -35,7 +35,8 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
-    width: 1440px;
+    max-width: 1440px;
+    width: 100%;
     padding: 35px 110px;
     background-color: #3399cc;
 }
@@ -45,7 +46,8 @@ h1 {
 
 
 .container-city {
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     margin: 0;
    
     font-size: 0px;
@@ -72,8 +74,9 @@ img {
 
 .list-lisbon,
 .list-sanfrancisco {
-    width: 587px;
-    height: 147px;
+    max-width: 587px;
+    width: 100%;
+    min-height: 147px;
     display: inline-block;
     border: 2px solid white;
     text-align: center;
@@ -90,8 +93,9 @@ img {
 .list-new-york,
 .list-belgrade,
 .list-tokyo {
-    width: 293.5px;
-    height: 147px;
+    max-width: 293.5px;
+    width: 100%;
+    min-height: 147px;
     text-align: center;
     display: inline-block;
     border: 2px solid white;
@@ -102,8 +106,9 @@ img {
 
 
 .list-sydney {
-    width: 1174px;
-    height: 147px;
+    max-width: 1174px;
+    width: 100%;
+    min-height: 147px;
     background-color: #666699;
     display: inline-block;
     border: 2px solid white;
@@ -162,7 +167,7 @@ img {
 
 .list-items { 
    display:block;
-   
+   cursor: pointer;
 }
 
 
